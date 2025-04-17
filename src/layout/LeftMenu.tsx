@@ -1,36 +1,38 @@
 export default function LeftMenu() {
   return (
-    <div className="pt-9">
-      <ul>
-        <li className="pr-8">
-          <a className="link" href="/principles">
-            Principles
-          </a>
+    <div className="max-w-1/4 min-w-1/4 pt-9">
+      <ul className="menu">
+        <li>
+          <details>
+            <summary>Principles</summary>
+            <ul>
+              <li>
+                <a className="link" href="/principles/domaindriven">
+                  Domain driven design
+                </a>
+              </li>
+            </ul>
+          </details>
         </li>
         <li>
-          <a className="link" href="/security">
-            Security
-          </a>
+          <details>
+            <summary>Security</summary>
+          </details>
         </li>
         <li>
-          <a className="link" href="/styles">
-            Styles
-          </a>
+          <details>
+            <summary>Performance</summary>
+          </details>
         </li>
-        <li className="pr-8">
-          <a className="link" href="/deployment">
-            Deployment
-          </a>
+        <li>
+          <details>
+            <summary>Styles</summary>
+          </details>
         </li>
-        <li className="pr-8">
-          <a className="link" href="/integration">
-            Integration
-          </a>
-        </li>
-        <li className="pr-8">
-          <a className="link" href="/performance">
-            Performance
-          </a>
+        <li>
+          <details>
+            <summary>Integration</summary>
+          </details>
         </li>
       </ul>
     </div>

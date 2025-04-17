@@ -11,9 +11,9 @@ export default function RootLayout({
       <body>
         <div className="flex flex-col">
           <TopMenu />
-          <div className="row mx-auto flex max-w-7xl min-w-7xl">
+          <div className="row mx-auto flex max-w-5xl min-w-5xl">
             <LeftMenu />
-            {children}
+            <div className="pt-12">{children}</div>
           </div>
         </div>
       </body>
