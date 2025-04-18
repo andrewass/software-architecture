@@ -1,8 +1,16 @@
+import EventDrivenConcepts from "@/app/styles/eventdriven/EventDrivenConcepts";
+import EventDrivenOverview from "@/app/styles/eventdriven/EventDrivenOverview";
+import EventDrivenModel from "@/app/styles/eventdriven/EventDrivenModel";
+import EventDrivenApplications from "@/app/styles/eventdriven/EventDrivenApplications";
+
 export default function EventDrivenPage() {
   return (
-    <div>
-      <h1>Event Driven</h1>
-      <p>Placeholder of event driven page</p>
+    <div className="flex flex-col gap-4">
+      <h2>Event-Driven Architecture</h2>
+      <EventDrivenOverview />
+      <EventDrivenModel />
+      <EventDrivenConcepts />
+      <EventDrivenApplications />
     </div>
   );
 }

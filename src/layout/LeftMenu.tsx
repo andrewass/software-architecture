@@ -1,14 +1,14 @@
 export default function LeftMenu() {
   return (
     <div className="max-w-1/4 min-w-1/4 pt-9">
-      <ul className="menu">
+      <ul className="menu w-full">
         <li>
           <details>
             <summary>Principles</summary>
             <ul>
               <li>
                 <a className="link" href="/principles/domaindriven">
-                  Domain driven design
+                  Domain Driven Design
                 </a>
               </li>
             </ul>
@@ -27,6 +27,13 @@ export default function LeftMenu() {
         <li>
           <details>
             <summary>Styles</summary>
+            <ul>
+              <li>
+                <a className="link" href="/styles/eventdriven">
+                  Event Driven Architecture
+                </a>
+              </li>
+            </ul>
           </details>
         </li>
         <li>
