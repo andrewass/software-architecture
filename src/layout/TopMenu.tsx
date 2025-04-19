@@ -6,8 +6,8 @@ import {
 
 export default function TopMenu() {
   return (
-    <nav className="flex justify-center bg-gray-800 p-4 text-white">
-      <div className="flex w-4/6 justify-between">
+    <nav className="fixed z-50 flex h-20 w-full items-center bg-gray-800 text-white">
+      <div className="mx-auto flex w-4/6 justify-between">
         <LogoIcon />
         <div className="flex gap-8">
           <SunIcon className="size-8" />
