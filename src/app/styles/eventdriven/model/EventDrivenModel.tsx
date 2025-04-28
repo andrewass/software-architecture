@@ -87,7 +87,7 @@ const initialEdges = [
 
 export default function EventDrivenModel() {
   return (
-    <div className="h-90 w-200">
+    <div className="h-90">
       <ReactFlow
         fitView
         colorMode="dark"

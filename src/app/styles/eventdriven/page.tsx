@@ -5,7 +5,7 @@ import EventDrivenModel from "@/app/styles/eventdriven/model/EventDrivenModel";
 
 export default function EventDrivenPage() {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-10">
       <h2>Event-Driven Architecture</h2>
       <EventDrivenOverview />
       <EventDrivenModel />
