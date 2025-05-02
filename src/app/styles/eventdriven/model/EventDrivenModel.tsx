@@ -1,12 +1,12 @@
 "use client";
 
-import { ReactFlow } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 import {
   EventBrokerNode,
   EventConsumerNode,
   EventProducerNode,
 } from "@/app/styles/eventdriven/model/EventDrivenModelComponents";
+import ReactFlowRead from "@/flow/ReactFlowRead";
 
 const nodeTypes = {
   eventProducer: EventProducerNode,
@@ -88,13 +88,7 @@ const initialEdges = [
 export default function EventDrivenModel() {
   return (
     <div className="h-90">
-      <ReactFlow
-        fitView
-        colorMode="dark"
-        nodes={nodes}
-        nodeTypes={nodeTypes}
-        edges={initialEdges}
-      />
+      <ReactFlowRead nodes={nodes} nodeTypes={nodeTypes} edges={initialEdges} />
     </div>
   );
 }

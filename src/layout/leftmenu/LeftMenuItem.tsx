@@ -10,7 +10,7 @@ export function LeftMenuTopItem({
   return (
     <li>
       <details>
-        <summary>{summary}</summary>
+        <summary className="text-lg">{summary}</summary>
         <ul>
           {subMenuItems.map((item, index) => (
             <LeftMenuSubItem
@@ -29,7 +29,7 @@ export function LeftMenuSubItem({ path, summary }: LeftMenuSubMenuItemType) {
   return (
     <li>
       <a className="link" href={path}>
-        {summary}
+        <span className="text-base"> {summary}</span>
       </a>
     </li>
   );

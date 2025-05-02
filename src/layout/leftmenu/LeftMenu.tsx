@@ -21,7 +21,7 @@ const menuTopItems: LeftMenuTopItemType[] = [
 export default function LeftMenu() {
   return (
     <div className="max-w-1/5 min-w-1/5 bg-green-800 pt-9">
-      <ul className="menu w-full">
+      <ul className="menu w-full gap-3">
         {menuTopItems.map((item, index) => (
           <LeftMenuTopItem
             key={index}
