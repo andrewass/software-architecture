@@ -1,6 +1,6 @@
 import EventDrivenConcepts from "@/app/styles/eventdriven/EventDrivenConcepts";
 import EventDrivenOverview from "@/app/styles/eventdriven/EventDrivenOverview";
-import EventDrivenApplications from "@/app/styles/eventdriven/EventDrivenApplications";
+import EventDrivenApplications from "@/app/styles/eventdriven/EventDrivenUseCases";
 import EventDrivenModel from "@/app/styles/eventdriven/model/EventDrivenModel";
 
 export default function EventDrivenPage() {
